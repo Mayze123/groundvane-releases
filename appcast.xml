@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Groundvane</title>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Thu, 30 Jul 2026 19:54:22 -0400</pubDate>
+            <link>https://github.com/Mayze123/groundvane-releases</link>
+            <sparkle:version>196</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>Groundvane 0.1.0</h2>
+
+<p>First public release. A native macOS ground station for ArduPilot aircraft, built in SwiftUI rather than wrapped around the existing desktop application.</p>
+
+<h3>Connecting</h3>
+<ul>
+  <li>Serial and UDP links to a flight controller.</li>
+  <li>Serial devices are discovered and ranked, so a probable flight controller is distinguishable from a generic USB adapter.</li>
+  <li>A link that stops delivering telemetry is reported as stale rather than left looking connected.</li>
+</ul>
+
+<h3>Fly</h3>
+<ul>
+  <li>Live telemetry: attitude, position, GPS, battery, and system status.</li>
+  <li>Map view with the aircraft's live position, heading, home marker, and recent trail.</li>
+  <li>Arm, disarm, and mode changes, each behind an explicit confirmation and an eligibility check.</li>
+</ul>
+
+<h3>Plan, Analyze, Tune, and Configure</h3>
+<ul>
+  <li>Mission planning and map editing.</li>
+  <li>Telemetry log download over the link, and log analysis in the app.</li>
+  <li>Parameter viewing and editing, and calibration workflows.</li>
+</ul>
+
+<h3>Updates</h3>
+<ul>
+  <li>Checks for updates daily and never installs one on its own — installing relaunches the application, which is not always safe to do.</li>
+  <li>Background update checks are suppressed while a vehicle is connected.</li>
+  <li>No system profiling is sent with an update check.</li>
+</ul>
+
+<p>Signed with a Developer ID certificate and notarized by Apple.</p>
+]]></description>
+            <enclosure url="https://github.com/Mayze123/groundvane-releases/releases/download/v0.1.0-196/Groundvane-0.1.0-196.zip" length="24114561" type="application/octet-stream" sparkle:edSignature="X9n8rxX6JoaiW5iwxFJ+cWxatJNexDvaQ07XZ9qvGQiwAF+5WWetdIJpgCPiej3f5JkkcroxvmGsFYfXcT1sCw=="/>
+        </item>
+    </channel>
+</rss>
