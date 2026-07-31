@@ -1,0 +1,8 @@
+# Archives are distributed as GitHub Release assets, never committed.
+# A 23M zip in git history cannot be removed without rewriting history,
+# and generate_appcast needs them present in this directory to work.
+*.zip
+
+# Release notes are inputs to generate_appcast, which embeds them into
+# appcast.xml. The published feed does not reference these files.
+Groundvane-*.html
